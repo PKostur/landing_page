@@ -60,16 +60,20 @@ img {
 
 .left-text {
 	padding: 20px;
-	margin-left: 100px;
+	margin-left: 120px;
 	flex-wrap: wrap;
-
 	
+}
+
+.right-text {
+	align-items: flex-start;
 }
 
 .left-lower-text,
 li {
 	font-size: 18px;
 	color: #e5e7eb;
+
 }
 .left-upper-text {
 	font-size: 48px;
@@ -78,7 +82,39 @@ li {
 
 }
 
-
-.right-text {
-	align-items: flex-start;
+button {
+	background-color: #3882f6;
+	color: white;
+	padding: 10px;
+	border-radius: 7px;
+	align-self: flex-start;
+	border: transparent;
 }
+
+.content1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #1f2937;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 100px;
+}
+
+.box {
+	border: 2px solid rgba(44, 44, 192, 0.897);
+	border-radius: 8px;
+	width: 150px;
+	height: 150px;
+}
+
